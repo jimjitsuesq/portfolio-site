@@ -20,19 +20,23 @@ body {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
-  color: #0a0a0a;
-  background: #fefefe;
-  background: #000;
+  color: #565656;
+  background: #D7CEC7;
+  background: #76323F;
   transform: translateX(0px);
   transition: all 0.4s ease-out;
 }
 
 article {
-  background: #fefefe;
+  background: #D7CEC7;
 }
 
 h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #565656;
 }
 
 h5{
@@ -63,7 +67,7 @@ a {
   min-width: 320px;
   height: 100%;
   min-height: 100%;
-  background: #fefefe;
+  background: #D7CEC7;
 }
 
 .flex-row-wrap {
@@ -82,7 +86,7 @@ a {
   width: 100%;
   max-width: 1200px;
   padding: 40px 50px 30px;
-  background: #fefefe;
+  background: #D7CEC7;
   border-bottom: 1px solid #eaeaea;
 }
 
@@ -137,7 +141,7 @@ nav a span {
   height: 100%;
   min-height: 100%;
   padding: 20px;
-  background: #000;
+  background: #76323F;
 }
 
 .sidebar-info-box {
@@ -176,7 +180,7 @@ nav a span {
   font-size: 13px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: #555;
+  color: #D7CEC7;
 }
 
 .header {
@@ -229,7 +233,6 @@ nav a span {
 
 .portfolio-intro h1 {
   font-size: 1.5rem;
-  color: #0a0a0a;
   margin: 0 auto 8px;
 }
 
@@ -247,7 +250,7 @@ nav a span {
   font-size: 13px;
   letter-spacing: 2.25px;
   text-transform: uppercase;
-  color: #222;;
+  color: #565656;;
   margin: 0 auto 8px;
 }
 
@@ -296,7 +299,7 @@ nav a span {
   max-width: 255px;
   margin: auto 0 5px 0;
   padding: 0.85em 1em;
-  background-color: #333;
+  background-color: #666;
   border: 1px solid transparent;
 }
 
@@ -328,7 +331,7 @@ nav a span {
   }
 
   .cell {
-    margin: 0 0 15px;
+    margin: 0 0 15px 5px;
   }
 
   .cell h5 {

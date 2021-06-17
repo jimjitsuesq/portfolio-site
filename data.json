@@ -4,7 +4,7 @@
     "project_name": "Game Show App",
     "description": "A phrase guessing game similar to Wheel of Fortune or hangman.",
     "technologies": ["JavaScript", "HTML", "CSS"],
-    "live_link": "",
+    "live_link": "https://jimjitsuesq.github.io/game-show-app/",
     "github_link": "https://github.com/jimjitsuesq/game-show-app",
     "thumbnail_url": "./images/gameShowApp/gameShowApp_square.png",
     "image_urls": ["../images/gameShowApp/gameShowApp_landscape_0.png",  "../images/gameShowApp/gameShowApp_landscape_1.png"]
@@ -14,7 +14,7 @@
     "project_name": "Interactive Form",
     "description": "A form designed to register for a full stack conference.",
     "technologies": ["JavaScript", "HTML", "CSS"],
-    "live_link": "",
+    "live_link": "https://jimjitsuesq.github.io/interactive-form/",
     "github_link": "https://github.com/jimjitsuesq/interactive-form",
     "thumbnail_url": "./images/InteractiveForm/InteractiveForm_square.png",
     "image_urls": ["../images/InteractiveForm/InteractiveForm_landscape_0.png",  "../images/InteractiveForm/InteractiveForm_landscape_1.png", "../images/InteractiveForm/InteractiveForm_landscape_2.png"]
@@ -24,7 +24,7 @@
     "project_name": "Public API Employee Directory",
     "description": "A mockup of an employee directory using the Fetch API to retrieve random user data from randomuser.me.",
     "technologies": ["JavaScript", "HTML", "CSS", "Fetch API"],
-    "live_link": "",
+    "live_link": "https://jimjitsuesq.github.io/public-api-employee-directory/",
     "github_link": "https://github.com/jimjitsuesq/public-api-employee-directory",
     "thumbnail_url": "./images/PublicAPIEmployeeDirectory/PublicAPIEmployeeDirectory_square.png",
     "image_urls": ["../images/PublicAPIEmployeeDirectory/PublicAPIEmployeeDirectory_landscape_0.png",  "../images/PublicAPIEmployeeDirectory/PublicAPIEmployeeDirectory_landscape_1.png", "../images/PublicAPIEmployeeDirectory/PublicAPIEmployeeDirectory_landscape_2.png"]
@@ -34,7 +34,7 @@
     "project_name": "Random Quote Generator",
     "description": "A program that displays random quotes from Doctor Who.",
     "technologies": ["JavaScript", "HTML", "CSS"],
-    "live_link": "",
+    "live_link": "https://jimjitsuesq.github.io/random-quote-generator/",
     "github_link": "https://github.com/jimjitsuesq/random-quote-generator",
     "thumbnail_url": "./images/RandomQuoteGenerator/RandomQuoteGenerator_square.png",
     "image_urls": ["../images/RandomQuoteGenerator/RandomQuoteGenerator_landscape_0.png",  "../images/RandomQuoteGenerator/RandomQuoteGenerator_landscape_1.png", "../images/RandomQuoteGenerator/RandomQuoteGenerator_landscape_2.png", "../images/RandomQuoteGenerator/RandomQuoteGenerator_landscape_3.png"]
@@ -44,7 +44,7 @@
     "project_name": "Student Directory",
     "description": "A mockup of a searchable student directory.",
     "technologies": ["JavaScript", "HTML", "CSS"],
-    "live_link": "",
+    "live_link": "https://jimjitsuesq.github.io/student-directory/",
     "github_link": "https://github.com/jimjitsuesq/student-directory",
     "thumbnail_url": "./images/StudentDirectory/StudentDirectory_square.png",
     "image_urls": ["../images/StudentDirectory/StudentDirectory_landscape_0.png",  "../images/StudentDirectory/StudentDirectory_landscape_1.png"]
