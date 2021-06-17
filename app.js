@@ -21,10 +21,6 @@ app.get('/project/:id.html', (req, res) => {
     res.render('project.pug', projects[id])
 });
 
-app.get('/projects/:id', (req, res) => {
-    
-});
-
 app.listen(3000, () => {
     console.log('The application is running on localhost:3000!')
 });
