@@ -12,7 +12,7 @@
     {
     "id": 1,
     "project_name": "Interactive Form",
-    "description": "A form designed to register for a full stack conference.",
+    "description": "A form designed for an attendee to register for a full stack conference.",
     "technologies": ["JavaScript", "HTML", "CSS"],
     "live_link": "https://jimjitsuesq.github.io/interactive-form/",
     "github_link": "https://github.com/jimjitsuesq/interactive-form",
@@ -22,7 +22,7 @@
     {
     "id": 2,
     "project_name": "Public API Employee Directory",
-    "description": "A mockup of an employee directory using the Fetch API to retrieve random user data from randomuser.me.",
+    "description": "A searchable employee directory using the Fetch API to retrieve random user data from randomuser.me.",
     "technologies": ["JavaScript", "HTML", "CSS", "Fetch API"],
     "live_link": "https://jimjitsuesq.github.io/public-api-employee-directory/",
     "github_link": "https://github.com/jimjitsuesq/public-api-employee-directory",
@@ -42,7 +42,7 @@
     {
     "id": 4,
     "project_name": "Student Directory",
-    "description": "A mockup of a searchable student directory.",
+    "description": "A searchable student directory.",
     "technologies": ["JavaScript", "HTML", "CSS"],
     "live_link": "https://jimjitsuesq.github.io/student-directory/",
     "github_link": "https://github.com/jimjitsuesq/student-directory",

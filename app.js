@@ -21,7 +21,14 @@ app.get('/project/:id.html', (req, res) => {
     res.render('project.pug', projects[id]);
 });
 
-/* GET generated error route - create and throw 500 server error */
+app.listen(3000, () => {
+  console.log('The application is running on localhost:3000!');
+});
+
+/**
+ * A custom error route used to simulate 500 errors for testing purposes
+ */
+
 app.get('/error', (req, res, next) => {
     console.log('Custom error route called');
   
@@ -31,9 +38,9 @@ app.get('/error', (req, res, next) => {
     throw err;
   });
 
-app.listen(3000, () => {
-    console.log('The application is running on localhost:3000!');
-});
+/**
+ * A 404 error handler for when a resource is not found on the site
+ */
 
 app.use((req, res, next) => {
     const err = new Error();
@@ -43,6 +50,10 @@ app.use((req, res, next) => {
     console.log(err.message);
     res.status(404).render('page-not-found.pug', {err});
 });
+
+/**
+ * A global error handler to handle all errors thrown browsing the site
+ */
 
 app.use((err, req, res, next) => {
   if (err) {
