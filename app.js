@@ -16,7 +16,7 @@ app.get('/about', (req, res) => {
     res.render('about.pug');
 });
 
-app.get('/project/:id.html', (req, res) => {
+app.get('/project/:id', (req, res) => {
     const id = req.params.id;
     res.render('project.pug', projects[id]);
 });
@@ -29,14 +29,14 @@ app.listen(3000, () => {
  * A custom error route used to simulate 500 errors for testing purposes
  */
 
-app.get('/error', (req, res, next) => {
-    console.log('Custom error route called');
+// app.get('/error', (req, res, next) => {
+//     console.log('Custom error route called');
   
-    const err = new Error();
-    err.status = 500;
-    err.message = `Custom ` + err.status + ` error thrown`
-    throw err;
-  });
+//     const err = new Error();
+//     err.status = 500;
+//     err.message = `Custom ` + err.status + ` error thrown`
+//     throw err;
+//   });
 
 /**
  * A 404 error handler for when a resource is not found on the site
